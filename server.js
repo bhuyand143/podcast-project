@@ -28,6 +28,7 @@ app.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "Podcast", "build", "index.html"));
 });
 
-app.listen(8900,()=>{
+const PORT = process.env.PORT || 8900;
+app.listen(PORT,()=>{
     console.log("Backend server is running");
 })
