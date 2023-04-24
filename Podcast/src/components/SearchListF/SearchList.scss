@@ -1,0 +1,36 @@
+.listItem1{
+    width: 250px;
+    height: 250px;
+    background-color:#C0DBEA;
+    margin-right: 5px;
+    overflow: hidden;
+    cursor: pointer;
+    color: rgb(242, 4, 4);
+
+    img{
+        width: 100%;
+        height: 120px;
+        object-fit: cover;
+    }
+    .listitemdetails1{
+        color: black;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+}
+.desc{
+    color:teal;
+    margin: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+.type
+{
+    float:right;
+}
+
